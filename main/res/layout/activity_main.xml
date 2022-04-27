@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="textEnd"
+    android:textDirection="firstStrong"
+    android:visibility="visible"
+    android:background="@color/black"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/T1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SPU"
+            android:padding="10dp"
+            android:textColor="#FF0000"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:background="#FFFFFF"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sankalchand Patel University Visanagar also known as SPU VISANAGAR, is a Private University situated in Visnagar, Gujarat. SPU VISANAGAR was established in the year 2016. Its campus is spread over 75 Acres of land. SPU VISANAGAR is approved by UGC. SPU VISANAGAR offers admission in various courses like BE, MBA , MCA, ME, M.Tech.
+Various Facilities provided by SPU VISANAGAR are Medical Support Systems, Transport Facility and etc.
+
+Read more at: https://www.entrancezone.com/university/sankalchand-patel-university-visanagar"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
+
+       <TextView
+           android:id="@+id/T2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="SPCE"
+           android:padding="10dp"
+           android:textColor="#FF0000"
+           android:layout_gravity="center_horizontal"
+           android:textSize="25sp"
+           android:layout_margin="25dp"
+           android:textStyle="bold"
+           android:background="#FFFFFF"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Established in 1999, Sankalchand Patel College of Engineering (SPCE), Visnagar is a leading Private Un-Aided college based in Visnagar.The college is popularly known as SPCE among the students.The institute offers a wide array of academic courses and programmes that are approved by AICTE.The college, affiliated to Sankalchand Patel University, Visnagar , is widely recognized for its academic standards. Sankalchand Patel College of Engineering (SPCE), Visnagar takes a holistic view of education and focuses on both, academic as well as personality development of the students. The qualified and experienced faculty at SPCE along with the carefully designed and updated curriculum ensure that the students receive the best education and skills which can help them emerge as qualified professionals.In order to provide students with quality academic environment, the college has developed all the necessary infrastructural facilities. The key among them are Hostel, Library, Laboratory, Playground, Canteen, Gym, Medical Help, Education loan, Auditorium, Scholarship."
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:layout_marginTop="20dp"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
